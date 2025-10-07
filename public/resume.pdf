@@ -1,0 +1,131 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2000
+>>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+(Nikhil Verma) Tj
+0 -20 Td
+(Full Stack Developer & Software Tester) Tj
+0 -40 Td
+(Contact Information:) Tj
+0 -20 Td
+(+91 6392848646 | jsnikhil00@gmail.com) Tj
+0 -20 Td
+(Portfolio | LinkedIn) Tj
+0 -40 Td
+(Professional Summary) Tj
+0 -20 Td
+(Full Stack Developer with 1+ year of experience in MERN Stack) Tj
+0 -20 Td
+((MongoDB, Express.js, React.js, Node.js), Next.js, and REST APIs.) Tj
+0 -20 Td
+(Skilled in cloud deployment (AWS), and automation testing) Tj
+0 -20 Td
+(with Selenium & JMeter. Experienced in building SaaS) Tj
+0 -20 Td
+(applications, scalable web platforms, role-based access) Tj
+0 -20 Td
+(control (RBAC), and API integrations.) Tj
+0 -40 Td
+(Work Experience) Tj
+0 -20 Td
+(Full Stack Developer | VGI Sooprs Technology Pvt Ltd.) Tj
+0 -20 Td
+(Aug 2024 – Present | Gurgaon, India) Tj
+0 -20 Td
+(• Developed and deployed a CRM system using React.js & Node.js) Tj
+0 -20 Td
+(• Implemented Role-Based Access Control (RBAC)) Tj
+0 -20 Td
+(• Built an Admin Dashboard with real-time analytics) Tj
+0 -20 Td
+(• Automated API, UI, and load testing with Selenium & JMeter) Tj
+0 -40 Td
+(Projects) Tj
+0 -20 Td
+(Shopinger - Multi-vendor e-commerce platform) Tj
+0 -20 Td
+(Namohsundari - Perfume Business e-commerce platform) Tj
+0 -20 Td
+(AxeVisa - Visa application management platform) Tj
+0 -40 Td
+(Technical Skills) Tj
+0 -20 Td
+(Frontend: React.js, Next.js, Redux, HTML, CSS, Tailwind CSS) Tj
+0 -20 Td
+(Backend: Node.js, Express.js, PHP) Tj
+0 -20 Td
+(Database: MongoDB, MySQL) Tj
+0 -20 Td
+(Testing: Selenium, Manual Testing, API Testing, JMeter) Tj
+0 -20 Td
+(Programming Languages: JavaScript, C++, Python) Tj
+0 -40 Td
+(Education) Tj
+0 -20 Td
+(B.Tech, Information Technology | 2020 – 2023) Tj
+0 -20 Td
+(Bundelkhand Institute Of Engineering And Technology Jhansi) Tj
+0 -20 Td
+(CGPA: 7.79/10) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002300 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+2374
+%%EOF
