@@ -22,7 +22,6 @@ import {
 } from "@heroicons/react/24/outline";
 import LoadingScreen from "@/components/LoadingScreen";
 import ParticleBackground from "@/components/ParticleBackground";
-import ResumePDF from "@/components/ResumePDF";
 
 // Custom Icons
 const GithubIcon = ({ className }: { className?: string }) => (
@@ -818,11 +817,12 @@ const ContactSection = () => {
           >
             <div>
               <h3 className="text-2xl font-semibold text-white mb-8">
-                Let's Connect
+                Let us Connect
               </h3>
               <p className="text-gray-300 mb-10">
-                I'm always interested in new opportunities and exciting
-                projects. Feel free to reach out if you'd like to work together!
+                I am always interested in new opportunities and exciting
+                projects. Feel free to reach out if you would like to work
+                together!
               </p>
             </div>
 
