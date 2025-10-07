@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nikhil Verma - Portfolio Website
 
-## Getting Started
+A premium, luxury portfolio website built with Next.js, TypeScript, and Tailwind CSS, featuring modern animations and professional design.
 
-First, run the development server:
+## 🚀 Features
+
+### ✨ Premium Design
+
+- **Dark Theme**: Elegant dark color scheme with gradient accents
+- **Glass Morphism**: Modern glassmorphism effects throughout the design
+- **Gradient Text**: Beautiful gradient text effects for headings
+- **Custom Animations**: Smooth scroll animations and transitions using Framer Motion
+- **Particle Background**: Interactive particle system for visual appeal
+
+### 📱 Responsive Design
+
+- **Mobile First**: Fully responsive design that works on all devices
+- **Cross-browser Compatible**: Tested on modern browsers
+- **Touch Friendly**: Optimized for touch interactions
+
+### 🎨 Sections
+
+1. **Hero Section**: Animated introduction with call-to-action buttons
+2. **About Section**: Professional summary with contact information
+3. **Experience Section**: Work experience timeline with achievements
+4. **Projects Section**:
+   - Development projects with live demo links
+   - Testing projects with descriptions
+5. **Skills Section**: Technical skills organized by category
+6. **Contact Section**: Contact form and social media links
+
+### 🔧 Technical Features
+
+- **Resume Download**: PDF resume generation using React PDF
+- **Loading Screen**: Professional loading animation
+- **Smooth Scrolling**: Enhanced user experience with smooth scroll behavior
+- **SEO Optimized**: Meta tags and Open Graph for social sharing
+- **Performance Optimized**: Fast loading and smooth animations
+
+### 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Heroicons
+- **PDF Generation**: React PDF
+- **Deployment**: Vercel Ready
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd portfolio
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+portfolio/
+├── src/
+│   ├── app/
+│   │   ├── globals.css          # Global styles and animations
+│   │   ├── layout.tsx           # Root layout with metadata
+│   │   └── page.tsx             # Main portfolio page
+│   └── components/
+│       ├── LoadingScreen.tsx    # Loading animation component
+│       ├── ParticleBackground.tsx # Particle system component
+│       └── ResumePDF.tsx        # PDF resume component
+├── public/                      # Static assets
+└── package.json
+```
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Colors
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The color scheme can be customized in `src/app/globals.css`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```css
+:root {
+  --primary: #3b82f6; /* Blue */
+  --secondary: #8b5cf6; /* Purple */
+  --accent: #06b6d4; /* Cyan */
+}
+```
 
-## Deploy on Vercel
+### Content
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Update your information in `src/app/page.tsx`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Personal details in the Hero and About sections
+- Work experience in the Experience section
+- Projects in the Projects section
+- Skills in the Skills section
+- Contact information in the Contact section
+
+### Resume
+
+Modify the resume content in `src/components/ResumePDF.tsx` to match your information.
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with zero configuration
+
+### Other Platforms
+
+The app can be deployed to any platform that supports Next.js:
+
+- Netlify
+- AWS Amplify
+- Railway
+- DigitalOcean App Platform
+
+## 📱 Mobile Optimization
+
+The portfolio is fully optimized for mobile devices with:
+
+- Touch-friendly navigation
+- Responsive typography
+- Optimized animations for mobile
+- Fast loading on mobile networks
+
+## 🔧 Performance Features
+
+- **Code Splitting**: Automatic code splitting with Next.js
+- **Image Optimization**: Next.js Image component for optimized images
+- **Lazy Loading**: Components load as needed
+- **Minimal Bundle**: Optimized bundle size
+
+## 📞 Contact
+
+- **Email**: jsnikhil00@gmail.com
+- **Phone**: +91 6392848646
+- **Location**: Gurgaon, India
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by Nikhil Verma
