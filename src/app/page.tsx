@@ -705,7 +705,16 @@ const SkillsSection = () => {
     },
     {
       category: "Backend",
-      skills: ["Node.js", "Nest Js", "Express.js", "PHP", "Python"],
+      skills: [
+        "Node.js",
+        "Nest Js",
+        "Express.js",
+        "PHP",
+        "Python",
+        "AWS",
+        "Apache",
+        "Nginx",
+      ],
     },
     { category: "Database", skills: ["MongoDB", "MySQL"] },
     {
