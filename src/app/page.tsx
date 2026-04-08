@@ -145,7 +145,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 opacity-10">
           <img
             src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop&auto=format&q=80"
-            alt="Background"
+            // alt="Background"
             className="w-full h-full object-cover"
           />
         </div>
@@ -933,8 +933,8 @@ const ContactSection = () => {
               onClick={() => {
                 // Create a simple download link for now
                 const link = document.createElement("a");
-                link.href = "/Fullstack-Nikhil-Verma-resume.pdf";
-                link.download = "Nikhil_Verma_Resume.pdf";
+                link.href = "/Nikhil_Verma_Fullstack_Resumef.pdf";
+                link.download = "Nikhil_Verma_FullStack_Resume.pdf";
                 link.click();
               }}
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
