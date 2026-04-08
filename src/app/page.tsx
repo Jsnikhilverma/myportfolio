@@ -197,8 +197,9 @@ const HeroSection = () => {
             className="text-lg md:text-xl text-gray-400 mt-4"
           >
             Passionate about building scalable web applications with MERN Stack,
-            Next.js, and delivering high-quality software solutions through
-            comprehensive testing.
+            Next.js, Nest.js,PHP, Python, Javasript/Typescript, Tailwind,
+            Docker, Ci/CD Pipeline, AWS, Apache, Nginx, and delivering
+            high-quality software solutions through comprehensive testing.
           </motion.p>
 
           <motion.div
@@ -279,17 +280,21 @@ const AboutSection = () => {
               Professional Summary
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              Full Stack Developer with 1+ year of experience in MERN Stack
-              (MongoDB, Express.js, React.js, Node.js), Next.js, and REST APIs.
-              Skilled in cloud deployment (AWS), and automation testing with
-              Selenium & JMeter.
+              Results-driven Full Stack Developer with 2+ years building
+              production-grade MERN/Next.js applications that scale to 1,000+
+              concurrent users. Delivered a CRM platform in under 6 months,
+              automated testing pipelines that slashed production bugs by 30%,
+              and architected RBAC systems governing 500+ users across
+              multi-department SaaS products. Comfortable across the entire
+              delivery lifecycle — from MongoDB schema design to VPS deployment
+              and CI/CD — in Agile/Scrum teams.
             </p>
-            <p className="text-gray-300 leading-relaxed">
+            {/* <p className="text-gray-300 leading-relaxed">
               Experienced in building SaaS applications, scalable web platforms,
               role-based access control (RBAC), and API integrations. Passionate
               about delivering efficient, secure, and high-performance
               solutions.
-            </p>
+            </p> */}
 
             <div className="flex flex-wrap gap-6 mt-12">
               <div className="glass rounded-lg p-6 flex items-center gap-4">
@@ -354,9 +359,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "Full Stack Developer",
-      company: "VGI Sooprs Technology Pvt Ltd.",
-      period: "Aug 2024 – Present",
+      company: "V Power Logistics.",
+      img: "/logo_vpower.png", // 👈 apni image path ya URL
+      period: "Nov 2025 – Present",
+      link: "https://vpower-logistics.com/",
       location: "Gurgaon, India",
+      achievements: [
+        "Delivered a production-ready, full-stack CRM from zero to live, replacing a manual workflow and cutting data-entry errors for the operations team.",
+        "Engineered JWT-based auth with protected routes and session management, achieving zero auth-related incidents in production since launch.",
+        "Reduced customer on-boarding time by ~40% by building lead-management and CRUD modules that automated previously manual data entry across 3 departments.",
+        "Deployed and maintained the stack across Netlify + AWS + Render, achieving 99.9% uptime by configuring healthchecks, auto-scaling, and CDN caching.",
+        "Automated API, UI, and load testing with Selenium & JMeter, reducing production bugs by 30%",
+        "Collaborated in an Agile Scrum environment with sprints, Jira tracking, and cross-functional reviews",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company: "VGI Sooprs Technology Pvt Ltd.",
+      img: "/sooprs_logo.png", // 👈 dusri company ka logo
+      period: "Aug 2024 – Oct 2025",
+      location: "Gurgaon, India",
+      link: "https://sooprs.com/",
       achievements: [
         "Developed and deployed a CRM system using React.js & Node.js, reducing manual workflows by 40%",
         "Implemented Role-Based Access Control (RBAC) to securely manage 500+ users across multiple departments",
@@ -394,23 +417,28 @@ const ExperienceSection = () => {
               className="glass rounded-2xl p-10 mb-12"
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <a
+                  href={exp.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 group"
+                >
+                  <div className="w-56 h-24 bg-white rounded-lg flex items-center justify-center flex-shrink-0">
                     <img
-                      src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=100&h=100&fit=crop&auto=format&q=80"
-                      alt="Company Logo"
-                      className="w-12 h-12 object-cover rounded-lg"
+                      src={exp.img}
+                      alt={exp.company}
+                      className="w-72 h-24 p-2 object-cover rounded-lg"
                     />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold text-white mb-2">
+                    <h3 className="text-2xl font-semibold text-white mb-2 group-hover:text-blue-400 transition">
                       {exp.title}
                     </h3>
-                    <p className="text-xl text-blue-400 font-medium">
+                    <p className="text-xl text-blue-400 font-medium group-hover:underline">
                       {exp.company}
                     </p>
                   </div>
-                </div>
+                </a>
                 <div className="text-right mt-4 md:mt-0">
                   <p className="text-gray-300 font-medium">{exp.period}</p>
                   <p className="text-gray-400">{exp.location}</p>
@@ -675,7 +703,10 @@ const SkillsSection = () => {
         "Bootstrap",
       ],
     },
-    { category: "Backend", skills: ["Node.js", "Express.js", "PHP"] },
+    {
+      category: "Backend",
+      skills: ["Node.js", "Nest.Js", "Express.js", "PHP", "Python"],
+    },
     { category: "Database", skills: ["MongoDB", "MySQL"] },
     {
       category: "Testing",
@@ -688,11 +719,19 @@ const SkillsSection = () => {
     },
     {
       category: "Tools & Platforms",
-      skills: ["Git", "Github", "Postman", "AWS"],
+      skills: [
+        "Cursor",
+        "Trea",
+        "Cloude",
+        "Github Copilot",
+        "Github",
+        "Postman",
+        "AWS",
+      ],
     },
     {
       category: "Programming Languages",
-      skills: ["JavaScript", "C++", "Python"],
+      skills: ["JavaScript", "Typescript", "C++", "Python"],
     },
   ];
 
