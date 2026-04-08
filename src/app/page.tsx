@@ -695,7 +695,7 @@ const SkillsSection = () => {
       category: "Frontend",
       skills: [
         "React.js",
-        "Next.js",
+        "Next js",
         "Redux",
         "HTML",
         "CSS",
@@ -705,7 +705,7 @@ const SkillsSection = () => {
     },
     {
       category: "Backend",
-      skills: ["Node.js", "Nest.Js", "Express.js", "PHP", "Python"],
+      skills: ["Node.js", "Nest Js", "Express.js", "PHP", "Python"],
     },
     { category: "Database", skills: ["MongoDB", "MySQL"] },
     {
